@@ -1,10 +1,10 @@
 package com.abhi.app.auth;
 
+import static com.abhi.app.auth.ApplicationUserPermission.ADMIN_READ;
 import static com.abhi.app.auth.ApplicationUserPermission.COURSE_READ;
 import static com.abhi.app.auth.ApplicationUserPermission.COURSE_WRITE;
 import static com.abhi.app.auth.ApplicationUserPermission.STUDENT_READ;
 import static com.abhi.app.auth.ApplicationUserPermission.STUDENT_WRITE;
-import static com.abhi.app.auth.ApplicationUserPermission.ADMIN_READ;
 
 import java.util.Set;
 import java.util.stream.Collectors;
